@@ -33,7 +33,6 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    NSLog(@"viewwillappear");
 }
 
 #pragma mark - Initial Setup Methods

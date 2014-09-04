@@ -56,6 +56,10 @@ typedef void (^MCSwipeCompletionBlock)(MCSwipeTableViewCell *cell, MCSwipeTableV
 
 @interface MCSwipeTableViewCell : UITableViewCell
 
+#pragma mark - Custom Properties Set By You
+//CUSTOM PROPERTIES
+@property (nonatomic) NSNumber *cellIdNumber;
+
 /** Delegate of `MCSwipeTableViewCell` */
 @property (nonatomic, assign) id <MCSwipeTableViewCellDelegate> delegate;
 
