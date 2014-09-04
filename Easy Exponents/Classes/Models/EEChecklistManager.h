@@ -3,7 +3,7 @@
 
 @interface EEChecklistManager : NSObject
 
-@property (nonatomic) NSMutableArray *swipedCellRows;
+@property (nonatomic) NSMutableArray *swipedCellIdNumbers;
 
 + (EEChecklistManager *)sharedMMChecklistManager;
 - (void)saveChecklist;
