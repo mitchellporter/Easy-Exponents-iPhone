@@ -106,6 +106,7 @@
     MCSwipeTableViewCell *cell = [[MCSwipeTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
     
     cell.delegate = self;
+    cell.cellIdNumber = [NSNumber numberWithInteger:indexPath.row];
     
         //Remove inset of iOS 7 separators.
         if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
@@ -119,7 +120,7 @@
     
     
     //Set different color for swiped / completed cells
-    if ([self.checklistManager.swipedCellRows containsObject:[NSNumber numberWithInteger:indexPath.row]]) {
+    if ([self.checklistManager.swipedCellRows containsObject:cell.cellIdNumber]) {
                 
         cell.contentView.backgroundColor = [UIColor colorWithRed:1.000 green:0.310 blue:0.000 alpha:1];
         cell.backgroundColor = [UIColor colorWithRed:1.000 green:0.310 blue:0.000 alpha:1];
@@ -183,7 +184,7 @@
         
       
         //Add swiped row to swiped rows array
-        [self.checklistManager.swipedCellRows addObject:[NSNumber numberWithInteger:indexPath.row]];
+        [self.checklistManager.swipedCellRows addObject:cell.cellIdNumber];
         
         [self.tableView reloadData];
     }];
