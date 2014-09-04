@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C37012D419AEC01900F94FBD /* SAMGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37012D319AEC01900F94FBD /* SAMGradientView.m */; };
+		C37012D719AEC02E00F94FBD /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C37012D619AEC02E00F94FBD /* MCSwipeTableViewCell.m */; };
+		C372F822199AE342003180CB /* EESecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C372F821199AE342003180CB /* EESecondTabViewController.m */; };
+		C3A515E7199AE5AC0013EB0E /* EEThirdTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A515E6199AE5AC0013EB0E /* EEThirdTabViewController.m */; };
+		C3A515EA199AEF150013EB0E /* EECalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A515E9199AEF150013EB0E /* EECalculator.m */; };
+		C3B17890199AD8B10031BBB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B1788F199AD8B10031BBB2 /* Foundation.framework */; };
+		C3B17892199AD8B10031BBB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B17891199AD8B10031BBB2 /* CoreGraphics.framework */; };
+		C3B17894199AD8B10031BBB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B17893199AD8B10031BBB2 /* UIKit.framework */; };
+		C3B1789A199AD8B10031BBB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B17898199AD8B10031BBB2 /* InfoPlist.strings */; };
+		C3B1789C199AD8B10031BBB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B1789B199AD8B10031BBB2 /* main.m */; };
+		C3B178A0199AD8B10031BBB2 /* EEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B1789F199AD8B10031BBB2 /* EEAppDelegate.m */; };
+		C3B178A6199AD8B10031BBB2 /* EEFirstTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B178A5199AD8B10031BBB2 /* EEFirstTabViewController.m */; };
+		C3B178AF199AD8B10031BBB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B178AE199AD8B10031BBB2 /* XCTest.framework */; };
+		C3B178B0199AD8B10031BBB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B1788F199AD8B10031BBB2 /* Foundation.framework */; };
+		C3B178B1199AD8B10031BBB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B17893199AD8B10031BBB2 /* UIKit.framework */; };
+		C3B178B9199AD8B10031BBB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B178B7199AD8B10031BBB2 /* InfoPlist.strings */; };
+		C3B178BB199AD8B10031BBB2 /* EasyExponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B178BA199AD8B10031BBB2 /* EasyExponentsTests.m */; };
+		C3B2AEED199BC2AD005C5D9C /* EEChecklistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2AEEC199BC2AD005C5D9C /* EEChecklistManager.m */; };
+		C3B2AF30199BDFCB005C5D9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B2AF2F199BDFCB005C5D9C /* Main.storyboard */; };
+		C3E9EBA319B8E523005A7C09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E9EBA219B8E523005A7C09 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3B178B2199AD8B10031BBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B17884199AD8B10031BBB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B1788B199AD8B10031BBB2;
+			remoteInfo = MMProfitFirst;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C37012D219AEC01900F94FBD /* SAMGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMGradientView.h; sourceTree = "<group>"; };
+		C37012D319AEC01900F94FBD /* SAMGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMGradientView.m; sourceTree = "<group>"; };
+		C37012D519AEC02E00F94FBD /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		C37012D619AEC02E00F94FBD /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		C372F820199AE342003180CB /* EESecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EESecondTabViewController.h; sourceTree = "<group>"; };
+		C372F821199AE342003180CB /* EESecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EESecondTabViewController.m; sourceTree = "<group>"; };
+		C3A515E5199AE5AC0013EB0E /* EEThirdTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEThirdTabViewController.h; sourceTree = "<group>"; };
+		C3A515E6199AE5AC0013EB0E /* EEThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEThirdTabViewController.m; sourceTree = "<group>"; };
+		C3A515E8199AEF150013EB0E /* EECalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EECalculator.h; sourceTree = "<group>"; };
+		C3A515E9199AEF150013EB0E /* EECalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EECalculator.m; sourceTree = "<group>"; };
+		C3B1788C199AD8B10031BBB2 /* Easy Exponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Exponents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B1788F199AD8B10031BBB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3B17891199AD8B10031BBB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3B17893199AD8B10031BBB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3B17897199AD8B10031BBB2 /* Easy Exponents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Easy Exponents-Info.plist"; sourceTree = "<group>"; };
+		C3B17899199AD8B10031BBB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3B1789B199AD8B10031BBB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3B1789D199AD8B10031BBB2 /* Easy Exponents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Easy Exponents-Prefix.pch"; sourceTree = "<group>"; };
+		C3B1789E199AD8B10031BBB2 /* EEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEAppDelegate.h; sourceTree = "<group>"; };
+		C3B1789F199AD8B10031BBB2 /* EEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEAppDelegate.m; sourceTree = "<group>"; };
+		C3B178A4199AD8B10031BBB2 /* EEFirstTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEFirstTabViewController.h; sourceTree = "<group>"; };
+		C3B178A5199AD8B10031BBB2 /* EEFirstTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEFirstTabViewController.m; sourceTree = "<group>"; };
+		C3B178AD199AD8B10031BBB2 /* Easy ExponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy ExponentsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B178AE199AD8B10031BBB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3B178B6199AD8B10031BBB2 /* Easy ExponentsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Easy ExponentsTests-Info.plist"; sourceTree = "<group>"; };
+		C3B178B8199AD8B10031BBB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3B178BA199AD8B10031BBB2 /* EasyExponentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyExponentsTests.m; sourceTree = "<group>"; };
+		C3B2AEEB199BC2AD005C5D9C /* EEChecklistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEChecklistManager.h; sourceTree = "<group>"; };
+		C3B2AEEC199BC2AD005C5D9C /* EEChecklistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEChecklistManager.m; sourceTree = "<group>"; };
+		C3B2AF2F199BDFCB005C5D9C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C3E9EBA219B8E523005A7C09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B17889199AD8B10031BBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B17892199AD8B10031BBB2 /* CoreGraphics.framework in Frameworks */,
+				C3B17894199AD8B10031BBB2 /* UIKit.framework in Frameworks */,
+				C3B17890199AD8B10031BBB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B178AA199AD8B10031BBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B178AF199AD8B10031BBB2 /* XCTest.framework in Frameworks */,
+				C3B178B1199AD8B10031BBB2 /* UIKit.framework in Frameworks */,
+				C3B178B0199AD8B10031BBB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3825E5219AEE8CA005162FA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		C3AF643319AEB9AB00004D9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C37012D519AEC02E00F94FBD /* MCSwipeTableViewCell.h */,
+				C37012D619AEC02E00F94FBD /* MCSwipeTableViewCell.m */,
+				C37012D219AEC01900F94FBD /* SAMGradientView.h */,
+				C37012D319AEC01900F94FBD /* SAMGradientView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3B17883199AD8B10031BBB2 = {
+			isa = PBXGroup;
+			children = (
+				C3B17895199AD8B10031BBB2 /* Easy Exponents */,
+				C3B178B4199AD8B10031BBB2 /* EasyExponentsTests */,
+				C3B1788E199AD8B10031BBB2 /* Frameworks */,
+				C3B1788D199AD8B10031BBB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B1788D199AD8B10031BBB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1788C199AD8B10031BBB2 /* Easy Exponents.app */,
+				C3B178AD199AD8B10031BBB2 /* Easy ExponentsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B1788E199AD8B10031BBB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1788F199AD8B10031BBB2 /* Foundation.framework */,
+				C3B17891199AD8B10031BBB2 /* CoreGraphics.framework */,
+				C3B17893199AD8B10031BBB2 /* UIKit.framework */,
+				C3B178AE199AD8B10031BBB2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B17895199AD8B10031BBB2 /* Easy Exponents */ = {
+			isa = PBXGroup;
+			children = (
+				C3825E5219AEE8CA005162FA /* iPad */,
+				C3E9EBA219B8E523005A7C09 /* Images.xcassets */,
+				C3B2AF2F199BDFCB005C5D9C /* Main.storyboard */,
+				C3B178C8199AD9F20031BBB2 /* Image Resources */,
+				C3B178C4199AD97D0031BBB2 /* Classes */,
+				C3B17896199AD8B10031BBB2 /* Supporting Files */,
+			);
+			path = "Easy Exponents";
+			sourceTree = "<group>";
+		};
+		C3B17896199AD8B10031BBB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B17897199AD8B10031BBB2 /* Easy Exponents-Info.plist */,
+				C3B17898199AD8B10031BBB2 /* InfoPlist.strings */,
+				C3B1789B199AD8B10031BBB2 /* main.m */,
+				C3B1789D199AD8B10031BBB2 /* Easy Exponents-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B178B4199AD8B10031BBB2 /* EasyExponentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B178BA199AD8B10031BBB2 /* EasyExponentsTests.m */,
+				C3B178B5199AD8B10031BBB2 /* Supporting Files */,
+			);
+			name = EasyExponentsTests;
+			path = "Easy Exponents Tests";
+			sourceTree = "<group>";
+		};
+		C3B178B5199AD8B10031BBB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B178B6199AD8B10031BBB2 /* Easy ExponentsTests-Info.plist */,
+				C3B178B7199AD8B10031BBB2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B178C4199AD97D0031BBB2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3AF643319AEB9AB00004D9D /* Views */,
+				C3B178C7199AD9DC0031BBB2 /* Delegates */,
+				C3B178C6199AD9D50031BBB2 /* Models */,
+				C3B178C5199AD9CC0031BBB2 /* View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C3B178C5199AD9CC0031BBB2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3B178A4199AD8B10031BBB2 /* EEFirstTabViewController.h */,
+				C3B178A5199AD8B10031BBB2 /* EEFirstTabViewController.m */,
+				C372F820199AE342003180CB /* EESecondTabViewController.h */,
+				C372F821199AE342003180CB /* EESecondTabViewController.m */,
+				C3A515E5199AE5AC0013EB0E /* EEThirdTabViewController.h */,
+				C3A515E6199AE5AC0013EB0E /* EEThirdTabViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C3B178C6199AD9D50031BBB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3A515E8199AEF150013EB0E /* EECalculator.h */,
+				C3A515E9199AEF150013EB0E /* EECalculator.m */,
+				C3B2AEEB199BC2AD005C5D9C /* EEChecklistManager.h */,
+				C3B2AEEC199BC2AD005C5D9C /* EEChecklistManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3B178C7199AD9DC0031BBB2 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1789E199AD8B10031BBB2 /* EEAppDelegate.h */,
+				C3B1789F199AD8B10031BBB2 /* EEAppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C3B178C8199AD9F20031BBB2 /* Image Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Image Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B1788B199AD8B10031BBB2 /* Easy Exponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B178BE199AD8B10031BBB2 /* Build configuration list for PBXNativeTarget "Easy Exponents" */;
+			buildPhases = (
+				C3B17888199AD8B10031BBB2 /* Sources */,
+				C3B17889199AD8B10031BBB2 /* Frameworks */,
+				C3B1788A199AD8B10031BBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Exponents";
+			productName = MMProfitFirst;
+			productReference = C3B1788C199AD8B10031BBB2 /* Easy Exponents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3B178AC199AD8B10031BBB2 /* Easy ExponentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B178C1199AD8B10031BBB2 /* Build configuration list for PBXNativeTarget "Easy ExponentsTests" */;
+			buildPhases = (
+				C3B178A9199AD8B10031BBB2 /* Sources */,
+				C3B178AA199AD8B10031BBB2 /* Frameworks */,
+				C3B178AB199AD8B10031BBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B178B3199AD8B10031BBB2 /* PBXTargetDependency */,
+			);
+			name = "Easy ExponentsTests";
+			productName = MMProfitFirstTests;
+			productReference = C3B178AD199AD8B10031BBB2 /* Easy ExponentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B17884199AD8B10031BBB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mitchell Porter";
+				TargetAttributes = {
+					C3B178AC199AD8B10031BBB2 = {
+						TestTargetID = C3B1788B199AD8B10031BBB2;
+					};
+				};
+			};
+			buildConfigurationList = C3B17887199AD8B10031BBB2 /* Build configuration list for PBXProject "Easy Exponents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3B17883199AD8B10031BBB2;
+			productRefGroup = C3B1788D199AD8B10031BBB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B1788B199AD8B10031BBB2 /* Easy Exponents */,
+				C3B178AC199AD8B10031BBB2 /* Easy ExponentsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B1788A199AD8B10031BBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E9EBA319B8E523005A7C09 /* Images.xcassets in Resources */,
+				C3B2AF30199BDFCB005C5D9C /* Main.storyboard in Resources */,
+				C3B1789A199AD8B10031BBB2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B178AB199AD8B10031BBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B178B9199AD8B10031BBB2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B17888199AD8B10031BBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A515E7199AE5AC0013EB0E /* EEThirdTabViewController.m in Sources */,
+				C37012D719AEC02E00F94FBD /* MCSwipeTableViewCell.m in Sources */,
+				C3A515EA199AEF150013EB0E /* EECalculator.m in Sources */,
+				C372F822199AE342003180CB /* EESecondTabViewController.m in Sources */,
+				C3B2AEED199BC2AD005C5D9C /* EEChecklistManager.m in Sources */,
+				C3B178A0199AD8B10031BBB2 /* EEAppDelegate.m in Sources */,
+				C3B178A6199AD8B10031BBB2 /* EEFirstTabViewController.m in Sources */,
+				C37012D419AEC01900F94FBD /* SAMGradientView.m in Sources */,
+				C3B1789C199AD8B10031BBB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B178A9199AD8B10031BBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B178BB199AD8B10031BBB2 /* EasyExponentsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3B178B3199AD8B10031BBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B1788B199AD8B10031BBB2 /* Easy Exponents */;
+			targetProxy = C3B178B2199AD8B10031BBB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3B17898199AD8B10031BBB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B17899199AD8B10031BBB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3B178B7199AD8B10031BBB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B178B8199AD8B10031BBB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B178BC199AD8B10031BBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3B178BD199AD8B10031BBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B178BF199AD8B10031BBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Exponents/Easy Exponents-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Easy Exponents Tests/Easy ExponentsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "Easy Exponents";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3B178C0199AD8B10031BBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Exponents/Easy Exponents-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Easy Exponents Tests/Easy ExponentsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "Easy Exponents";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3B178C2199AD8B10031BBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMProfitFirst.app/MMProfitFirst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Exponents/Easy Exponents-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MMProfitFirstTests/Easy ExponentsTests-Info.plist";
+				PRODUCT_NAME = "Easy ExponentsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3B178C3199AD8B10031BBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMProfitFirst.app/MMProfitFirst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Exponents/Easy Exponents-Prefix.pch";
+				INFOPLIST_FILE = "MMProfitFirstTests/Easy ExponentsTests-Info.plist";
+				PRODUCT_NAME = "Easy ExponentsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B17887199AD8B10031BBB2 /* Build configuration list for PBXProject "Easy Exponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B178BC199AD8B10031BBB2 /* Debug */,
+				C3B178BD199AD8B10031BBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B178BE199AD8B10031BBB2 /* Build configuration list for PBXNativeTarget "Easy Exponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B178BF199AD8B10031BBB2 /* Debug */,
+				C3B178C0199AD8B10031BBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B178C1199AD8B10031BBB2 /* Build configuration list for PBXNativeTarget "Easy ExponentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B178C2199AD8B10031BBB2 /* Debug */,
+				C3B178C3199AD8B10031BBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B17884199AD8B10031BBB2 /* Project object */;
+}
