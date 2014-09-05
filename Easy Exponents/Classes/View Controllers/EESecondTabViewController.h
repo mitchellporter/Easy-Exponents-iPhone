@@ -1,7 +1,5 @@
 
 
-
 @interface EESecondTabViewController : UITableViewController
-
 
 @end

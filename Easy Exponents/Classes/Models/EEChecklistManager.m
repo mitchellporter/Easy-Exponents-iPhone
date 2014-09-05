@@ -3,9 +3,6 @@
 #import "EEChecklistManager.h"
 #import "EEAppDelegate.h"
 
-#pragma mark - Static Variables
-static NSString *kSavedSwipedCellRows = @"savedSwipedCellRows";
-
 @implementation EEChecklistManager
 
 #pragma mark - Singleton

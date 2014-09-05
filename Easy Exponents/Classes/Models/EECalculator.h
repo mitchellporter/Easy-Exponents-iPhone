@@ -14,9 +14,6 @@
 @property (readonly) CGFloat ninthPower;
 @property (readonly) CGFloat tenthPower;
 
-
-
 - (void)calculateValuesForNumber:(CGFloat)number;
-
 
 @end

@@ -9,8 +9,8 @@
 #pragma mark - Properties
 @property (strong, nonatomic) IBOutlet UITextField *monthlyRevenueTextField;
 @property (strong, nonatomic) IBOutlet UITableView *calculatedValuesTableView;
-@property (nonatomic) EECalculator *calculator;
 @property (strong, nonatomic) IBOutlet UITableView *exponentTableView;
+@property (nonatomic) EECalculator *calculator;
 
 @end
 
@@ -68,11 +68,10 @@
     
     if([UIScreen mainScreen].bounds.size.height == 568) {
         
-        NSLog(@"568");
         gradientView.frame = CGRectMake(0, 0, 320, 568);
         
     } else {
-        NSLog(@"640");
+        
         gradientView.frame = CGRectMake(0, 0, 320, 640);
         
     }

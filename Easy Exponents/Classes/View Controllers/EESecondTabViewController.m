@@ -18,7 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"viewdidload");
 
     //Set delegate and datasource
     [self setDelegateAndDataSource];
@@ -28,11 +27,6 @@
     
     //Setup gradient background
     [self gradientBackgroundViewSetup];
-}
-
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
 }
 
 #pragma mark - Initial Setup Methods
@@ -181,8 +175,6 @@
     
     //Adding gestures per state basis.
     [cell setSwipeGestureWithView:checkView color:greenColor mode:MCSwipeTableViewCellModeExit state:MCSwipeTableViewCellState1 completionBlock:^(MCSwipeTableViewCell *cell, MCSwipeTableViewCellState state, MCSwipeTableViewCellMode mode) {
-        NSLog(@"Did swipe \"Checkmark\" cell");
-        
       
         //Add swiped row to swiped rows array
         [self.checklistManager.swipedCellIdNumbers addObject:cell.cellIdNumber];
@@ -200,18 +192,5 @@
     imageView.contentMode = UIViewContentModeCenter;
     return imageView;
 }
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
     
 @end
